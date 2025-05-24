@@ -13,6 +13,12 @@
         android:theme="@style/Theme.WineWine"
         tools:targetApi="31">
         <activity
+            android:name=".mainScreen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".InicialActivity"
             android:exported="false" />
         <activity
