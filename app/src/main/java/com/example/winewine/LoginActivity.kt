@@ -9,6 +9,8 @@ import android.widget.TextView
 import android.widget.Toast
 import android.content.Intent
 import android.widget.Button
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
 
         val loginButton = findViewById<Button>(R.id.buttonLogin)
         loginButton.setOnClickListener {
-            val intent = Intent(this, mainScreen::class.java)
+            val intent = Intent(this, MainScreen::class.java)
             startActivity(intent)
         }
 

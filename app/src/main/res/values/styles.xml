@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationText.Active</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationText.Inactive</item>
+    </style>
+
+    <style name="BottomNavigationText.Active" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <style name="BottomNavigationText.Inactive" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>
