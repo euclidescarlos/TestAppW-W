@@ -1,4 +1,12 @@
-#WINEWINE APP#
+## 🍷 WineWineApp - FrontEnd
+
+Repositório do Front-end da aplicação WineWineApp
+
+Projeto acadêmico para a criação de uma loja virtual destinada a vendas e consulta de vinhos com as seguintes tecnologias:
+
+Backend: Java (Spring Boot)
+Frontend: Kotlin
+Banco de Dados: MySQL
 ------------------------------------------------
 
 ## 👨‍💻 Equipe
